@@ -18,7 +18,7 @@ whose sum is equal to the target sum. If there are no two numbers, the function 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TowSumUsingHashMap {
+public class TwoSumUsingHashMap {
     public static int[] findTwoSum(int[] list, int sum) {
         if (list == null || list.length < 2 ) return null;
         Map<Integer,Integer> twoSumMap = new HashMap<>();
