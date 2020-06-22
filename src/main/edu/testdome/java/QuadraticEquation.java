@@ -1,4 +1,4 @@
-package edu.testdome.java;
+package main.edu.testdome.java;
 
 public class QuadraticEquation {
     public static Roots findRoots(double a, double b, double c) {
