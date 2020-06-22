@@ -16,6 +16,7 @@ whose sum is equal to the target sum. If there are no two numbers, the function 
  */
 public class TwoSumUsingForLoops {
     public static int[] findTwoSum(int[] list, int sum) {
+        if (list == null || list.length < 2 ) return null;
         int [] twoSumArray = new int[2];
         L1:for (int i= 0;i<list.length;i++)
         {
