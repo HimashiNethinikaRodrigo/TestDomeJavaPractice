@@ -9,6 +9,7 @@ a frog can use to cover a given distance.
 For example, a distance of 3 inches can be covered in three ways: step-step-step, step-jump, and jump-step.
  */
 public class FrogProblem {
+    // Fibonacci sequence
     public static int numberOfWays(int input) {
         if (input==1) return 1;
         if (input == 2) return 2;
